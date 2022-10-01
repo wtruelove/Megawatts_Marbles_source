@@ -24,7 +24,9 @@
         Linux:      g++ (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
         Windows:    g++ (Rev1, Built by MSYS2 project) 11.3.0
 
-    The version of SFML used was 2.5.1.
+    The version of SFML used was 2.5.1. SFML is cross-platform (see https://www.sfml-dev.org/),
+and so should compile on macOS as well (although this has not been tested). Apparently SFML
+support for Android and iOS is coming too, so a future port to mobile is a definite maybe =P.
 
 
     In the directory for this project, you should find this README, a license file, a
