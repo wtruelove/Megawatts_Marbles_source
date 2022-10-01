@@ -1,0 +1,99 @@
+    Megawatts & Marbles - The Energy Planning Game
+
+    [ESC] Interactive
+    
+    Anthony Truelove MASc, P.Eng.
+    Spencer Funk BEng
+
+    Copyright 2022 [ESC] Interactive
+    See license terms for details
+
+
+    The makefile and all source code was tested on the following architectures and OS:
+
+        Operating System: Linux Mint 20.2
+                  Kernel: Linux 5.4.0-84-generic
+            Architecture: x86-64
+
+        Operating System: Windows 10 Home
+                 Version: 21H1 (build 19043.1586)
+            Architecture: 64-bit OS, x64-based processor
+
+    The following compilers were used:
+
+        Linux:      g++ (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
+        Windows:    g++ (Rev1, Built by MSYS2 project) 11.3.0
+
+    The version of SFML used was 2.5.1.
+
+
+    In the directory for this project, you should find this README, a license file, a
+makefile, and the following sub-directories:
+
+    /assets     (to hold various game assets)
+    /header     (to hold header files)
+    /source     (to hold source files)
+
+
+-------- notes on making and running (OS independent) --------
+
+The provided makefile can be used by way of simply
+
+    $   make clean all
+
+this will clean the game directory, create the required sub-directories, and build the game. To run the game, simply
+
+    $   make run
+
+
+-------- notes on SFML installation (Linux Mint 20.2) --------
+
+
+---- INSTALL USING apt ----
+
+ref: https://www.sfml-dev.org/tutorials/2.5/start-linux.php
+
+    $   sudo apt-get install libsfml-dev
+
+headers install to /usr/include/SFML/ by default
+libraries install to /usr/lib/x86_64-linux-gnu/ by default
+
+You may also need to install g++. This can be done by way of
+
+    $   sudo apt-get install build-essential g++
+
+
+---- LINKS ----
+
+To determine links, use
+
+    $   pkg-config --libs --cflags sfml-audio <etc.>
+
+To determine which libraries present, use
+
+    $   pkg-config --list-all | grep sfml
+
+For examples, see ref: https://www.sfml-dev.org/faq.php#build-link
+
+
+-------- notes on SFML installation (Windows 10 / MSYS2) --------
+
+
+---- INSTALL MSYS2 ----
+
+ref: https://www.msys2.org/
+
+
+---- INSTALL USING pacman IN MSYS2 ----
+
+ref: https://packages.msys2.org/package/mingw-w64-x86_64-sfml?repo=mingw64
+
+    $   pacman -S mingw-w64-x86_64-sfml
+
+headers install to ..\msys64\mingw64\include\ by default
+libraries install to ..\msys64\mingw64\lib\ by default
+
+
+---- LINKS ----
+
+For examples, see ref: https://www.sfml-dev.org/faq.php#build-link
