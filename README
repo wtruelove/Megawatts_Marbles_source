@@ -29,7 +29,9 @@ and so should compile on macOS as well (although this has not been tested). Appa
 support for Android and iOS is coming too, so a future port to mobile is a definite maybe =P.
 
     If you're looking for the static build of Megawatts & Marbles for 64-bit Windows, you can
-find it at https://github.com/wtruelove/Megawatts_Marbles_Windows_build
+find it at
+
+        https://github.com/wtruelove/Megawatts_Marbles_Windows_build
 
     In the directory for this project, you should find this README, a license file, a
 makefile, and the following sub-directories:
