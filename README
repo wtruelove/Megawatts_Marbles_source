@@ -7,6 +7,12 @@
 
     Copyright 2022 [ESC] Interactive
     See license terms for details
+    
+    
+    If you're looking for the static build of Megawatts & Marbles for 64-bit Windows, you can
+find it at
+
+        https://github.com/wtruelove/Megawatts_Marbles_Windows_build
 
 
     The makefile and all source code was tested on the following architectures and OS:
@@ -27,11 +33,6 @@
     The version of SFML used was 2.5.1. SFML is cross-platform (see https://www.sfml-dev.org/),
 and so should compile on macOS as well (although this has not been tested). Apparently SFML
 support for Android and iOS is coming too, so a future port to mobile is a definite maybe =P.
-
-    If you're looking for the static build of Megawatts & Marbles for 64-bit Windows, you can
-find it at
-
-        https://github.com/wtruelove/Megawatts_Marbles_Windows_build
 
     In the directory for this project, you should find this README, a license file, a
 makefile, and the following sub-directories:
