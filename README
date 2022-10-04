@@ -101,3 +101,15 @@ libraries install to ..\msys64\mingw64\lib\ by default
 ---- LINKS ----
 
 For examples, see ref: https://www.sfml-dev.org/faq.php#build-link
+
+
+-------- notes on original board game --------
+
+    This is a port of the Megawatts & Marbles board game, originally developed at the University of Victoria.
+You can learn more about the board game at
+
+        https://www.uvic.ca/research/centres/iesvic/get-involved/megawatts-marbles/index.php
+
+and
+
+        https://megawattsandmarbles.com/
